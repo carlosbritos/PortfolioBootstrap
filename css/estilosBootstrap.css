@@ -1,0 +1,148 @@
+* {
+  color: white;
+  margin: 0;
+  font-size: 14pt;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #333;
+}
+
+.cabecera{
+  background: #1a1a1a;
+}
+
+a, a:link, a:hover{
+  text-decoration: none;
+  color: white;
+}
+/* 
+.activeLink{
+  border-bottom: solid #00a4ff 2px;
+} */
+
+.contenedores{
+  border-radius: 10px;
+    background: #1a1a1a;
+}
+
+.contenedores img {
+  border-radius: 10px;
+  width: 100%;
+  margin: auto;
+}
+#section{
+  width: 95%;
+  margin: auto;
+  max-width: 1500px;
+
+}
+#section a{
+  margin-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.imagen img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#descripcion{
+  width: 90%;
+  margin: auto;
+  background-color: rgba(0,0,0,0.9);
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.75);
+}
+
+.description{
+  background: rgba(0, 164, 255, 0.26);
+  padding: 2em;
+}
+
+.info{
+  /* height: 40vh; */
+  padding: 1em;
+  max-width: 1000px;
+  margin: auto;
+  
+}
+
+.text-title{
+  height: 50%;
+  font-size: 3em;
+  display: flex;
+  align-items: flex-end;
+  line-height: 1;
+}
+.textDesc{
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px){
+  .text-title{
+      font-size: 2em;    }
+}
+@media screen and (max-width: 575px){
+  .text-title{
+      /* font-size: 1.5em; */
+      /* text-align: center; */
+  }
+
+  .tituloYestrellas{
+    padding-top: 2em;
+    /* text-align: center; */
+  }
+}
+
+.contactoForm {
+  background-color: rgba(0,0,0,0.75);
+  max-width: 800px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+form h1 {
+  text-align: center;
+  font-size: 30pt;
+  margin: 20px auto;
+  color:  #fff;
+}
+
+label {
+  color: rgba(255,255,255,.5);
+  margin-left: 50px;
+}
+
+.form-input {
+  background: #112;
+  /* width: 90%; */
+  padding: 15px 0;
+  padding-left: 20px;
+  /* border: 2px solid #00a4ff; */
+  border-radius: 10px; 
+  color: #fff;
+  margin: 0 auto;
+  margin-bottom: 30px
+}
+
+.form-submit {
+  background-color: #00a4ff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0 auto 20px;
+  width: 90%;
+  transition: linear .5s;
+}
+
+.form-file {
+  color: rgba(255,255,255,.5);
+  margin-bottom: 13px;
+}
+
+
