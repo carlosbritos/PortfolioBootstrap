@@ -64,7 +64,7 @@ var listFormNewJob = {
     },
 
     assamble: function(){
-        return '<form class="contactoForm row" method="post" id="enviarFormulario">'
+        return '<form class="contactoForm row">'
         +'<h1 class="titulo col-12">Subir nuevo trabajo</h1>'
         +'<label for="" class="form-label col-12">Nombre</label>'
         +'<input type="text" class="form-input inputName col-11" required>'
@@ -74,7 +74,7 @@ var listFormNewJob = {
         +'<input type="file" name="pic" class="form-submit inputLogoImage col-11" required>'
         +'<label for="" class="form-file col-12">Imagenes</label>'
         +'<input type="file" multiple="true" name="archivos" class="form-submit inputLogoAplicaciones col-11" required>'
-        +'<input type="submit" class="form-submit col-11">'
+        +'<input type="submit" class="form-submit col-11" id="enviarForm">'
         +'</form>'
     },
 }
@@ -91,14 +91,14 @@ var listFormContact = {
         return '<form class="contactoForm row" method="post">'
         +'<h1 class="titulo col-12">Envianos un mensaje</h1>'
         +'<label for="" class="form-label col-12">Nombre</label>'
-        +'<input type="text" class="form-input col-11" required>'
+        +'<input type="text" class="form-input inputName col-11" required>'
         +'<label for="" class="form-label col-12">Apellido</label>'
-        +'<input type="text" class="form-input col-11" required>'
+        +'<input type="text" class="form-input inputLastName col-11" required>'
         +'<label for="" class="form-label col-12">Correo</label>'
-        +'<input type="text" class="form-input col-11" required>'
+        +'<input type="text" class="form-input inputMail col-11" required>'
         +'<label for="" class="form-label col-12">Mensaje</label>'
-        +'<input type="text" class="form-input col-11" required>'
-        +'<input type="submit" class="form-submit col-11">'
+        +'<input type="text" class="form-input inputMessage col-11" required>'
+        +'<input type="submit" class="form-submit col-11" id="enviarFormContacto">'
         +'</form>'
     },
 
@@ -187,17 +187,16 @@ $(document).ready(function(){
         document.getElementById('section').style.margin = "0";
 
     })
-})
-
-
-$('#enviarFormulario').on('click',function(){
+    
+    /*
+    $('#enviarFormulario').on('click',function(){
     
         var inputName = $('.inputName').val();
         var inputDescription = $('.inputDescription').val();
         var inputLogoImage = $('.inputLogoImage').val();
         var inputLogoAplicaciones = $('.inputLogoAplicaciones').val();
         var form = inputName + inputDescription + inputLogoImage + inputLogoAplicaciones;
-    
+        
         $('#section').html("");
         $('#trabajoNuevo').html("");
         $('#contacto').html("");
@@ -214,9 +213,57 @@ $('#enviarFormulario').on('click',function(){
         return false;
         // location.reload();
         // .then(function(response){
-        //     console.log("ok ok ok")
+            //     console.log("ok ok ok")
             
-        // })
-        
-        
+            // })
+            
+            
+        })
+        */
+       
+    $('#enviarForm').on('click', function(event){
+        event.preventDefault();
+        var toSave = {
+            nombre: $('.inputName').val(),
+            descripcionInput: $('.inputDescription').val(),
+            imagenLogo: $('.inputLogoImage').val(),
+            aplicaciones: $('.inputLogoAplicaciones').val(),
+   }
+   
+        submitForm(toSave);
+})
+
+    $('#enviarFormContacto').on('click', function(event){
+        event.preventDefault();
+        var toSave = {
+            nombre: $('.inputName').val(),
+            apellido: $('.inputLastName').val(),
+            mail: $('.inputMail').val(),
+            imagenLogo: $('.inputMessage').val(),
+   }
+   
+        submitForm(toSave);
+})
+
+        function submitForm(data){
+            $.ajax({
+                // url: 'http://www.mockable.io',
+                url:'http://192.168.11.150:3000/peliculas',
+                method:'POST',
+                data: data
+    }).then(success,error)
+    }
+
+        function success(){
+            console.log("ok ok ok")
+        }
+
+        function error(){
+            console.log("error")
+        }
+
+
+
+
+
 })
