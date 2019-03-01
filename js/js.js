@@ -64,7 +64,7 @@ var listFormNewJob = {
     },
 
     assamble: function(){
-        return '<form class="contactoForm row">'
+        return '<form class="contactoForm row" method="post" id="enviarFormulario">'
         +'<h1 class="titulo col-12">Subir nuevo trabajo</h1>'
         +'<label for="" class="form-label col-12">Nombre</label>'
         +'<input type="text" class="form-input inputName col-11" required>'
@@ -88,7 +88,7 @@ var listFormContact = {
     },
 
     assamble: function(){
-        return '<form class="contactoForm row">'
+        return '<form class="contactoForm row" method="post">'
         +'<h1 class="titulo col-12">Envianos un mensaje</h1>'
         +'<label for="" class="form-label col-12">Nombre</label>'
         +'<input type="text" class="form-input col-11" required>'
@@ -189,28 +189,34 @@ $(document).ready(function(){
     })
 })
 
-    
-    
-    
-$('.form-submit').on('click',function(){
-        
-        $('#section').html("");
-        $('#trabajoNuevo').html("");
-        $('#contacto').html("");
-        $('#descripcion').html("");
-        listItems.listAll();
-        // alert('Su trabajo ha sido enviado con exito');
 
+$('#enviarFormulario').on('click',function(){
+    
         var inputName = $('.inputName').val();
         var inputDescription = $('.inputDescription').val();
         var inputLogoImage = $('.inputLogoImage').val();
         var inputLogoAplicaciones = $('.inputLogoAplicaciones').val();
-
-    $.ajax({
-        method: 'POST',
-        url: 'http://www.mockable.io'
-    }).then(function(response){
-        console.log("")
+        var form = inputName + inputDescription + inputLogoImage + inputLogoAplicaciones;
+    
+        $('#section').html("");
+        $('#trabajoNuevo').html("");
+        $('#contacto').html("");
+        $('#descripcion').html("");
+        // alert('Su trabajo ha sido enviado con exito');
+        $.ajax({
+            method: 'POST',
+            url: 'http://www.mockable.io',
+            data:form,
+            success: function(response){
+                console.log("ok ok ok");
+            }
+        })
+        return false;
+        // location.reload();
+        // .then(function(response){
+        //     console.log("ok ok ok")
+            
+        // })
         
-    })
+        
 })
