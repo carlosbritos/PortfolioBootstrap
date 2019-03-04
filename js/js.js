@@ -219,51 +219,51 @@ $(document).ready(function(){
             
             
         })
-        */
-       
-    $('#enviarForm').on('click', function(event){
-        event.preventDefault();
-        var toSave = {
-            nombre: $('.inputName').val(),
-            descripcionInput: $('.inputDescription').val(),
-            imagenLogo: $('.inputLogoImage').val(),
-            aplicaciones: $('.inputLogoAplicaciones').val(),
-   }
-   
-        submitForm(toSave);
-})
-
-    $('#enviarFormContacto').on('click', function(event){
-        event.preventDefault();
-        var toSave = {
-            nombre: $('.inputName').val(),
-            apellido: $('.inputLastName').val(),
-            mail: $('.inputMail').val(),
-            imagenLogo: $('.inputMessage').val(),
-   }
-   
-        submitForm(toSave);
-})
-
+        
+        $('#enviarForm').on('click', function(event){
+            event.preventDefault();
+            var toSave = {
+                nombre: $('.inputName').val(),
+                descripcionInput: $('.inputDescription').val(),
+                imagenLogo: $('.inputLogoImage').val(),
+                aplicaciones: $('.inputLogoAplicaciones').val(),
+            }
+            
+            submitForm(toSave);
+        })
+        
+        $('#enviarFormContacto').on('click', function(event){
+            event.preventDefault();
+            var toSave = {
+                nombre: $('.inputName').val(),
+                apellido: $('.inputLastName').val(),
+                mail: $('.inputMail').val(),
+                imagenLogo: $('.inputMessage').val(),
+            }
+            
+            submitForm(toSave);
+        })
+        
         function submitForm(data){
             $.ajax({
                 // url: 'http://www.mockable.io',
                 url:'http://192.168.11.150:3000/peliculas',
                 method:'POST',
                 data: data
-    }).then(success,error)
-    }
-
+            }).then(success,error)
+        }
+        
         function success(){
             console.log("ok ok ok")
         }
-
+        
         function error(){
             console.log("error")
         }
-
-
-
-
-
-})
+        */
+        
+        
+        
+        
+        
+    })
