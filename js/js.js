@@ -87,6 +87,17 @@ var listFormContact = {
         $('#contacto').append(listFormContact.assamble())
     },
 
+    // http://demo7600674.mockable.io/enviar-formulario-contacto
+
+    enviarFormularioContacto: function(){
+        $.ajax({
+            method: 'POST',
+            url: 'http://demo7600674.mockable.io/enviar-formulario-contacto',
+            data:form,
+            
+        })
+    },
+
     assamble: function(){
         return '<form class="contactoForm row" method="post">'
         +'<h1 class="titulo col-12">Envianos un mensaje</h1>'
@@ -190,17 +201,26 @@ $(document).ready(function(){
     
     /*
     $('#enviarFormulario').on('click',function(){
-    
+
+        
         var inputName = $('.inputName').val();
         var inputDescription = $('.inputDescription').val();
         var inputLogoImage = $('.inputLogoImage').val();
         var inputLogoAplicaciones = $('.inputLogoAplicaciones').val();
         var form = inputName + inputDescription + inputLogoImage + inputLogoAplicaciones;
         
+        listFormContact.enviarFormularioContacto()
+        
         $('#section').html("");
         $('#trabajoNuevo').html("");
         $('#contacto').html("");
         $('#descripcion').html("");
+
+
+
+
+
+
         // alert('Su trabajo ha sido enviado con exito');
         $.ajax({
             method: 'POST',
@@ -230,18 +250,7 @@ $(document).ready(function(){
             }
             
             submitForm(toSave);
-        })
-        
-        $('#enviarFormContacto').on('click', function(event){
-            event.preventDefault();
-            var toSave = {
-                nombre: $('.inputName').val(),
-                apellido: $('.inputLastName').val(),
-                mail: $('.inputMail').val(),
-                imagenLogo: $('.inputMessage').val(),
-            }
-            
-            submitForm(toSave);
+            listFormContact.enviarFormularioContacto()
         })
         
         function submitForm(data){
