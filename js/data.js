@@ -24,6 +24,9 @@ var elementsList = [
 		"logoImage": "imagenes/logotipo-ada-350.png",
 		"nombreLogo": "Ada",
 		"descripcionLogo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies dictum vestibulum. Sed pulvinar eros sed nibh dictum, eu varius dolor lobortis. Phasellus id nunc ut lacus pulvinar interdum ut eget neque. Sed posuere sem faucibus quam vehicula gravida. Aenean ac enim massa. Nulla sed eros nec ipsum interdum aliquet a ut libero. Nullam varius pulvinar tellus imperdiet condimentum. Morbi egestas quam id ex interdum, nec bibendum magna iaculis. Proin nunc ante, maximus non elit nec, maximus facilisis nibh. In nisl odio, hendrerit ac sem auctor, aliquam ultricies magna. Aenean pretium, lectus nec accumsan placerat, velit urna tempus velit, sed facilisis sem ipsum at quam. Praesent ornare neque quis ante luctus, eu porttitor turpis fringilla. Quisque vitae fermentum diam, eget consequat erat. Maecenas ornare, lacus sed pharetra eleifend, turpis dolor porttitor felis, at mattis lorem ex luctus lacus.",
+		"aplicImage1": "imagenes/Aplicaciones/Ada/bolsa.png",
+		"aplicImage2": "imagenes/Aplicaciones/Ada/portada.png",
+		"aplicImage3": "imagenes/Aplicaciones/Ada/tarjetas.png",
 	},
 
 	{
@@ -38,6 +41,9 @@ var elementsList = [
 		"logoImage": "imagenes/logo-fdlc-350.png",
 		"nombreLogo": "Fuera de la Caja",
 		"descripcionLogo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies dictum vestibulum. Sed pulvinar eros sed nibh dictum, eu varius dolor lobortis. Phasellus id nunc ut lacus pulvinar interdum ut eget neque. Sed posuere sem faucibus quam vehicula gravida. Aenean ac enim massa. Nulla sed eros nec ipsum interdum aliquet a ut libero. Nullam varius pulvinar tellus imperdiet condimentum. Morbi egestas quam id ex interdum, nec bibendum magna iaculis. Proin nunc ante, maximus non elit nec, maximus facilisis nibh. In nisl odio, hendrerit ac sem auctor, aliquam ultricies magna. Aenean pretium, lectus nec accumsan placerat, velit urna tempus velit, sed facilisis sem ipsum at quam. Praesent ornare neque quis ante luctus, eu porttitor turpis fringilla. Quisque vitae fermentum diam, eget consequat erat. Maecenas ornare, lacus sed pharetra eleifend, turpis dolor porttitor felis, at mattis lorem ex luctus lacus.",
+		"aplicImage1": "imagenes/Aplicaciones/FDLC/cartel.png",
+		"aplicImage2": "imagenes/Aplicaciones/FDLC/papeleria.png",
+		"aplicImage3": "imagenes/Aplicaciones/FDLC/señaletica.png",
 	},
 		
 	{
@@ -52,6 +58,9 @@ var elementsList = [
 		"logoImage": "imagenes/logo-adictos-350.png",
 		"nombreLogo": "Adictos por la Cumbia",
 		"descripcionLogo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies dictum vestibulum. Sed pulvinar eros sed nibh dictum, eu varius dolor lobortis. Phasellus id nunc ut lacus pulvinar interdum ut eget neque. Sed posuere sem faucibus quam vehicula gravida. Aenean ac enim massa. Nulla sed eros nec ipsum interdum aliquet a ut libero. Nullam varius pulvinar tellus imperdiet condimentum. Morbi egestas quam id ex interdum, nec bibendum magna iaculis. Proin nunc ante, maximus non elit nec, maximus facilisis nibh. In nisl odio, hendrerit ac sem auctor, aliquam ultricies magna. Aenean pretium, lectus nec accumsan placerat, velit urna tempus velit, sed facilisis sem ipsum at quam. Praesent ornare neque quis ante luctus, eu porttitor turpis fringilla. Quisque vitae fermentum diam, eget consequat erat. Maecenas ornare, lacus sed pharetra eleifend, turpis dolor porttitor felis, at mattis lorem ex luctus lacus.",
+		"aplicImage1": "imagenes/Aplicaciones/Adictos/portada.png",
+		"aplicImage2": "imagenes/Aplicaciones/Adictos/remera.png",
+		"aplicImage3": "imagenes/Aplicaciones/Adictos/taza.png",
 	},
 
 	{
