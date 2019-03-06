@@ -4,6 +4,9 @@ var elementsList = [
 		"logoImage": "imagenes/Logo-real-beauty-350.png",
 		"nombreLogo": "Real Beauty",
 		"descripcionLogo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies dictum vestibulum. Sed pulvinar eros sed nibh dictum, eu varius dolor lobortis. Phasellus id nunc ut lacus pulvinar interdum ut eget neque. Sed posuere sem faucibus quam vehicula gravida. Aenean ac enim massa. Nulla sed eros nec ipsum interdum aliquet a ut libero. Nullam varius pulvinar tellus imperdiet condimentum. Morbi egestas quam id ex interdum, nec bibendum magna iaculis. Proin nunc ante, maximus non elit nec, maximus facilisis nibh. In nisl odio, hendrerit ac sem auctor, aliquam ultricies magna. Aenean pretium, lectus nec accumsan placerat, velit urna tempus velit, sed facilisis sem ipsum at quam. Praesent ornare neque quis ante luctus, eu porttitor turpis fringilla. Quisque vitae fermentum diam, eget consequat erat. Maecenas ornare, lacus sed pharetra eleifend, turpis dolor porttitor felis, at mattis lorem ex luctus lacus.",
+		"aplicImage1": "imagenes/Aplicaciones/RealBeauty/bolsa.png",
+		"aplicImage2": "imagenes/Aplicaciones/RealBeauty/remera-roja.png",
+		"aplicImage3": "imagenes/Aplicaciones/RealBeauty/mesa.png",
 	},
 
 	{
@@ -11,6 +14,9 @@ var elementsList = [
 		"logoImage": "imagenes/logo-magic-nails-350.png",
 		"nombreLogo": "Magic Nails",
 		"descripcionLogo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies dictum vestibulum. Sed pulvinar eros sed nibh dictum, eu varius dolor lobortis. Phasellus id nunc ut lacus pulvinar interdum ut eget neque. Sed posuere sem faucibus quam vehicula gravida. Aenean ac enim massa. Nulla sed eros nec ipsum interdum aliquet a ut libero. Nullam varius pulvinar tellus imperdiet condimentum. Morbi egestas quam id ex interdum, nec bibendum magna iaculis. Proin nunc ante, maximus non elit nec, maximus facilisis nibh. In nisl odio, hendrerit ac sem auctor, aliquam ultricies magna. Aenean pretium, lectus nec accumsan placerat, velit urna tempus velit, sed facilisis sem ipsum at quam. Praesent ornare neque quis ante luctus, eu porttitor turpis fringilla. Quisque vitae fermentum diam, eget consequat erat. Maecenas ornare, lacus sed pharetra eleifend, turpis dolor porttitor felis, at mattis lorem ex luctus lacus.",
+		"aplicImage1": "imagenes/Aplicaciones/MagicNails/bolsa.png",
+		"aplicImage2": "imagenes/Aplicaciones/MagicNails/remera.png",
+		"aplicImage3": "imagenes/Aplicaciones/MagicNails/tarjetas.png",
 	},
 	
 	{

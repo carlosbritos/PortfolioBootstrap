@@ -52,9 +52,13 @@ a, a:link, a:hover{
 #descripcion{
   width: 90%;
   margin: auto;
-  background-color: rgba(0,0,0,0.9);
   border-radius: 5px;
-  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.75);
+}
+
+.logoYnombre{
+  background: black;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 .description{
@@ -68,6 +72,12 @@ a, a:link, a:hover{
   max-width: 1000px;
   margin: auto;
   
+}
+
+.titulo{
+  font-size: 3.5em;
+  line-height: 1.1em;
+  padding-top: 3%; 
 }
 
 .text-title{
@@ -93,8 +103,9 @@ a, a:link, a:hover{
       /* text-align: center; */
   }
 
-  .tituloYestrellas{
-    padding-top: 2em;
+  .titulo{
+    /* font-size: 4em; */
+    /* padding-top: 2em; */
     /* text-align: center; */
   }
 }
@@ -145,4 +156,23 @@ label {
   margin-bottom: 13px;
 }
 
+.carouselContainer{
+  width: 100%;
+  max-width: 1000px;
+  height: 50vw;
+  max-height: 500px;
+  margin: 30px auto;
+}
 
+.itemCarousel{
+  /* background-image: url("../imagenes/logo-bline.jpg");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;  */
+  height: 50vw;
+  max-height: 500px;
+}
+
+.itemCarousel img{
+  width: 100%;
+}
