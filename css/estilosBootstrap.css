@@ -17,6 +17,13 @@ a, a:link, a:hover{
   text-decoration: none;
   color: white;
 }
+
+.changeStyle i{
+  color:rgba(255,255,255,.5);
+}
+.changeStyle:hover i{
+  color:rgba(255,255,255,.8);
+}
 /* 
 .activeLink{
   border-bottom: solid #00a4ff 2px;
@@ -94,9 +101,8 @@ a, a:link, a:hover{
 }
 
 @media screen and (max-width: 768px){
-  .text-title{
-      font-size: 2em;    }
-}
+  
+  }
 @media screen and (max-width: 575px){
   .text-title{
       /* font-size: 1.5em; */
@@ -142,13 +148,23 @@ label {
 }
 
 .form-submit {
-  background-color: #00a4ff;
+  background-color: rgba(0, 123, 255, 0.75);
   border: none;
   border-radius: 5px;
   padding: 5px 10px;
   margin: 0 auto 20px;
   width: 90%;
   transition: linear .5s;
+}
+
+.form-send{
+  background: rgba(0, 123, 255, 0.75);
+  margin-left: 66%;
+  margin-bottom: 20px;
+  width: 30%;
+  padding: .5em;
+  border: none;
+  border-radius: 5px;
 }
 
 .form-file {

@@ -1,0 +1,48 @@
+*{
+  color: rgba(0, 0, 0, 0.7);
+}
+
+body{
+  background: white;
+}
+
+.cabecera{
+  background:rgba(0, 123, 255, 0.75);
+}
+
+.contenedores{
+  background: #eee;
+}
+
+.logoYnombre{
+  background: #eee;
+}
+
+.contactoForm{
+  background: #eee;
+}
+
+form h1{
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.form-input{
+  background: #fff;
+}
+
+label{
+  color: rgba(0, 123, 255, 0.75);
+}
+
+.form-file{
+  color: rgba(0, 123, 255, 0.75);
+}
+
+.form-submit{
+  background: rgba(0, 123, 255, 0.75);
+  color: #eee;
+}
+
+.form-send{
+  color: white;
+}

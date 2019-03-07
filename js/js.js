@@ -94,7 +94,7 @@ var listFormNewJob = {
         +'<input type="file" name="pic" class="form-submit inputLogoImage col-11" required>'
         +'<label for="" class="form-file col-12">Imagenes</label>'
         +'<input type="file" multiple="true" name="archivos" class="form-submit inputLogoAplicaciones col-11" required>'
-        +'<input type="submit" class="form-submit col-11" id="enviarForm">'
+        +'<input type="submit" class="form-send" id="enviarForm">'
         +'</form>'
     },
 }
@@ -129,7 +129,7 @@ var listFormContact = {
         +'<input type="text" class="form-input inputMail col-11" required>'
         +'<label for="" class="form-label col-12">Mensaje</label>'
         +'<input type="text" class="form-input inputMessage col-11" required>'
-        +'<input type="submit" class="form-submit col-11" id="enviarFormContacto">'
+        +'<input type="submit" class="form-send" id="enviarForm">'
         +'</form>'
     },
 
@@ -168,6 +168,16 @@ var listClickLogo = {
     }
 }
 
+var dayMode = {
+
+    dayModeButton: function(){
+        if($('#dayMode').hasClass('on')/*tiene la clase on */ ){
+            
+            /*aplicar estos estilos*/};
+        
+    },
+
+}
 /*
     al hacer clic en un logo 
     buscar los datos de ese logo con su id 
@@ -179,6 +189,7 @@ var listClickLogo = {
 
 $(document).ready(function(){
 
+    listItems.listAll();
 
     $('.logos').on('click',function(){
         
@@ -218,6 +229,26 @@ $(document).ready(function(){
         document.getElementById('section').style.margin = "0";
 
     })
+
+    $('#dayMode').on('click',function(){
+        /*agregar o quitar clase "on"*/
+        $('#changeStyle').toggleClass('on');
+
+        if($('#changeStyle').hasClass('on')){
+            $('#changeStyle').attr('href','css/changeMode.css');
+        }
+        else{
+            $('#changeStyle').attr('href','');
+        }
+
+
+    })
+
+
+
+
+
+
     
     /*
     $('#enviarFormulario').on('click',function(){
