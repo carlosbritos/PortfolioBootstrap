@@ -1,0 +1,55 @@
+
+.contactoForm {
+  background-color: $backgroundForm;
+  max-width: $maxWidthSection * 80 / 100 ;
+  margin: auto;
+  border-radius: $bordeCont;
+}
+
+form h1 {
+  text-align: center;
+  font-size: $titleSize;
+  margin: 20px auto;
+  color:  #fff;
+}
+
+label {
+  color: $labelGrey;
+  margin-left: $padding2;
+}
+
+.form-input {
+  background: $azulBrand;
+  padding: $padding1 0;
+  padding-left: $padding1;
+  border-radius: $bordeCont; 
+  color: white;
+  margin: auto;
+  margin-bottom: $padding2;
+}
+
+.form-submit {
+  background-color: $azulBrand;
+  border: none;
+  border-radius: $bordeCont / 2;
+  padding: $padding1 / 2;
+  margin: auto;
+  margin-bottom: $padding1; 
+  width: $width90;
+  transition: linear .5s;
+}
+
+.form-send{
+  background: $azulBrand;
+  margin-left: 66%;
+  margin-bottom: $padding1;
+  width: 30%;
+  padding: $padding1 / 2;
+  border: none;
+  border-radius: $bordeCont / 2;
+}
+
+.form-file {
+  color: $labelGrey;
+  margin-bottom: $padding1 / 2;
+}

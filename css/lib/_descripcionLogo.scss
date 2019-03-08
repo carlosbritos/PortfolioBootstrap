@@ -1,0 +1,57 @@
+#descripcion{
+  width: $width90;
+  margin: auto;
+  border-radius: $bordeCont / 2;
+}
+
+.logoYnombre{
+  background: $blackRemplace;
+  width: 100%;
+  border-radius: $bordeCont;
+
+  
+}
+
+.description{
+  background: $azulBrand;
+  padding: $padding2;
+  margin-top: -1em;
+  z-index: -1;
+}
+
+.info{
+  padding: 1em;
+  max-width: $maxWidth;
+  margin: auto;
+  
+}
+
+.titulo{
+  font-size: $titleSize;
+  line-height: 1em;
+  padding-top: 3%; 
+}
+
+.textDesc{
+  max-width: $maxWidth;
+  margin: auto;
+  text-align: center;
+}
+
+
+.carouselContainer{
+  width: 100%;
+  max-width: $maxWidth;
+  height: $carouselHeight;
+  max-height: $maxHeightCarousel;
+  margin: 30px auto;
+}
+
+.itemCarousel{
+  height: $carouselHeight;
+  max-height: $maxHeightCarousel;
+}
+
+.itemCarousel img{
+  width: 100%;
+}

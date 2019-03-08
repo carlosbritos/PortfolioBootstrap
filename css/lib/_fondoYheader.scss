@@ -1,0 +1,24 @@
+* {
+  color: white;
+  margin: $sinMargin;
+  font-size: $fontSizeDocument;
+  font-family: $fontFamily;
+}
+body {
+  background-color: $backgroundDark;
+}
+
+
+.cabecera{
+  background: $colorNav;
+}
+
+
+a, a:link, a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.changeStyle i{
+  color: inherit;
+}

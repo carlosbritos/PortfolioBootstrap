@@ -1,0 +1,27 @@
+.contenedores{
+  border-radius: $bordeCont;
+    background: $fondoCont;
+}
+
+.contenedores img {
+  border-radius: $bordeCont;
+  width: 100%;
+  margin: auto;
+}
+
+#section{
+  width: $width90;
+  margin: auto;
+  max-width: $maxWidthSection;
+}
+
+#section a{
+  margin-bottom: $marginInf;
+  padding: $paddingLados;
+}
+
+.imagen img{
+  width: 100%;
+  border-radius: $bordeCont;
+}
+

@@ -1,0 +1,135 @@
+* {
+  color: white;
+  margin: 0;
+  font-size: 14pt;
+  font-family: "Roboto", sans-serif; }
+
+body {
+  background-color: #333; }
+
+.cabecera {
+  background: #1a1a1a; }
+
+a, a:link, a:hover {
+  text-decoration: none;
+  color: white; }
+
+.changeStyle i {
+  color: inherit; }
+
+.contenedores {
+  border-radius: 10px;
+  background: #1a1a1a; }
+
+.contenedores img {
+  border-radius: 10px;
+  width: 100%;
+  margin: auto; }
+
+#section {
+  width: 90%;
+  margin: auto;
+  max-width: 1500px; }
+
+#section a {
+  margin-bottom: 10px;
+  padding: 0 5px 0; }
+
+.imagen img {
+  width: 100%;
+  border-radius: 10px; }
+
+#descripcion {
+  width: 90%;
+  margin: auto;
+  border-radius: 5px; }
+
+.logoYnombre {
+  background: #191919;
+  width: 100%;
+  border-radius: 10px; }
+
+.description {
+  background: rgba(0, 164, 255, 0.26);
+  padding: 2em;
+  margin-top: -1em;
+  z-index: -1; }
+
+.info {
+  padding: 1em;
+  max-width: 1000px;
+  margin: auto; }
+
+.titulo {
+  font-size: 3.5em;
+  line-height: 1em;
+  padding-top: 3%; }
+
+.textDesc {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center; }
+
+.carouselContainer {
+  width: 100%;
+  max-width: 1000px;
+  height: 50vw;
+  max-height: 500px;
+  margin: 30px auto; }
+
+.itemCarousel {
+  height: 50vw;
+  max-height: 500px; }
+
+.itemCarousel img {
+  width: 100%; }
+
+.contactoForm {
+  background-color: rgba(0, 0, 0, 0.75);
+  max-width: 1200px;
+  margin: auto;
+  border-radius: 10px; }
+
+form h1 {
+  text-align: center;
+  font-size: 3.5em;
+  margin: 20px auto;
+  color: #fff; }
+
+label {
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 2em; }
+
+.form-input {
+  background: rgba(0, 164, 255, 0.26);
+  padding: 1em 0;
+  padding-left: 1em;
+  border-radius: 10px;
+  color: white;
+  margin: auto;
+  margin-bottom: 2em; }
+
+.form-submit {
+  background-color: rgba(0, 164, 255, 0.26);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin: auto;
+  margin-bottom: 1em;
+  width: 90%;
+  -webkit-transition: linear .5s;
+  -o-transition: linear .5s;
+  transition: linear .5s; }
+
+.form-send {
+  background: rgba(0, 164, 255, 0.26);
+  margin-left: 66%;
+  margin-bottom: 1em;
+  width: 30%;
+  padding: 0.5em;
+  border: none;
+  border-radius: 5px; }
+
+.form-file {
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 0.5em; }

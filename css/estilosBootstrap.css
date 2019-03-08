@@ -17,13 +17,14 @@ a, a:link, a:hover{
   text-decoration: none;
   color: white;
 }
-
+/* 
 .changeStyle i{
   color:rgba(255,255,255,.5);
 }
-.changeStyle:hover i{
-  color:rgba(255,255,255,.8);
-}
+*/
+.changeStyle i{
+  color: inherit;
+} 
 /* 
 .activeLink{
   border-bottom: solid #00a4ff 2px;
@@ -40,21 +41,23 @@ a, a:link, a:hover{
   margin: auto;
 }
 #section{
-  width: 95%;
+  width: 90%;
   margin: auto;
   max-width: 1500px;
-
 }
 #section a{
   margin-bottom: 10px;
-  padding-right: 5px;
-  padding-left: 5px;
+  /* padding-right: 5px;
+  padding-left: 5px; */
+  padding:0 5px 0;
 }
 
 .imagen img{
     width: 100%;
     border-radius: 10px;
 }
+
+/* descripcion */
 
 #descripcion{
   width: 90%;
@@ -86,14 +89,14 @@ a, a:link, a:hover{
   line-height: 1.1em;
   padding-top: 3%; 
 }
-
+/* 
 .text-title{
   height: 50%;
   font-size: 3em;
   display: flex;
   align-items: flex-end;
   line-height: 1;
-}
+} */
 .textDesc{
   max-width: 1000px;
   margin: auto;
